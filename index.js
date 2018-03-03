@@ -45,6 +45,7 @@ const meals = [
   { description: 'Lunch', calories: 600 },
 ];
 
+// destructuring expression
 const { td, th, tr, tbody, thead, table } = tags;
 
 function cell(tag, className, value) {
